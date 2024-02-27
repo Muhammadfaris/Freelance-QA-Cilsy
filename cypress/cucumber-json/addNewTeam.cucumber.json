@@ -1,0 +1,622 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add New Team On Company Dashboard",
+    "line": 1,
+    "id": "add-new-team-on-company-dashboard",
+    "tags": [],
+    "uri": "addNewTeam.feature",
+    "elements": [
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-should-see-buat-tim-form-pop-up-menu-when-user-select-buat-tim-on-the-dashboard-company-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify user should see Buat tim form pop up menu when user select Buat tim on the dashboard company page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 7103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 2197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 929000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-should-be-able-to-close-buat-tim-form-pop-up-menu",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify user should be able to close Buat tim form pop up menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 9531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User close create tim menu",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User back to dasboard company",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-can-not-create-new-team-when-user-fills-blank-on-create-team-form",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify user can not create new team when user fills blank on create team form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 9557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User submit create team form",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "User should see the error team name required",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-can-not-create-new-team-when-user-only-fills-team-name-on-create-team-form",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify user can not create new team when user only fills team name on create team form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 8935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User fills name fields on create team form",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User submit create team form",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "User should see the error team description required",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-can-not-create-new-team-when-user-only-fills-team-description-on-create-team-form",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Verify user can not create new team when user only fills team description on create team form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 5609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User fills description fields on create team form",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User submit create team form",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "User should see the error team name required",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-team-on-company-dashboard;verify-user-should-be-able-to-create-new-team-when-user-complete-fill-out-the-create-new-team-form",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify user should be able to create new team when user complete fill out the create new team form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 5791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User success create new company",
+            "result": {
+              "status": "passed",
+              "duration": 3635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "User select Buat Tim on dashboard company page",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User on create new team menu",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "User complete fill out the create team form",
+            "result": {
+              "status": "passed",
+              "duration": 1233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "User submit create team form",
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "User success create new team",
+            "result": {
+              "status": "passed",
+              "duration": 4440000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

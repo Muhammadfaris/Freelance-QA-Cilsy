@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "cypress": "13.6.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-if": "^1.12.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "cypress-real-events": "^1.11.0",
+    "dotenv": "^16.4.4",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+        "generate": true,
+        "outputFolder": "Cypress/cucumber-json",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+    },
+
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step_definitions"
+  },
+  "scripts": {
+    "run-chat": "cypress run --spec cypress/e2e/cicle-testcase/privateChat.feature",
+    "run-edit-member": "cypress run --spec cypress/e2e/cicle-testcase/editMember.feature",
+    "run-addNewCompany": "cypress run --spec cypress/e2e/cicle-testcase/addNewCompany.feature",
+    "run-add-new-team": "cypress run --spec cypress/e2e/cicle-testcase/addNewTeam.feature",
+    "run-group-chat-team": "cypress run --spec cypress/e2e/cicle-testcase/groupChat.feature",
+    "run-addCompanyTeam-and-groupChat" : "cypress run --spec 'cypress/e2e/cicle-testcase/addNewCompany.feature,cypress/e2e/cicle-testcase/addNewTeam.feature,cypress/e2e/cicle-testcase/groupChat.feature'",
+    "generate-cucumber-report": "node ./cypress/cucumberReport.js"
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add New Company",
+    "line": 1,
+    "id": "add-new-company",
+    "tags": [],
+    "uri": "addNewCompany.feature",
+    "elements": [
+      {
+        "id": "add-new-company;verify-new-user-navigated-to-create-company-page-when-user-select-\"buat-perusahaan-sendiri\"-on-welcome-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify new user navigated to create company page when user select \"Buat Perusahaan Sendiri\" on welcome page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 23553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 1593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User on create company page",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-company;verify-user-navigated-to-welcome-page-when-user-select-back-on-their-browser-in-create-companies-page",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify user navigated to welcome page when user select back on their browser in create companies page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 9729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User on create company page",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User select back on their browser",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-company;verify-user-can-create-new-company-when-user-on-welcome-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify user can create new company when user on welcome page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User success login",
+            "result": {
+              "status": "passed",
+              "duration": 22124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "User on welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 2707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User select on Buat Perusahaan Sendiri",
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User complete fills the create company form",
+            "result": {
+              "status": "passed",
+              "duration": 1210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User success create new company",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#createCompany_create_button`, but never found it.\n    at Context.eval (cypress/support/step_definitions/addNewCompany.js:232:7)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
