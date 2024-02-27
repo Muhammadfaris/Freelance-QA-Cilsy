@@ -36,3 +36,4 @@ Open the report cypress\cucumber-report\index.html with browser.
 1. Add new testcases in e2e directory with feature file using the gherkins syntax
 2. Cypress commands can be edited in support/step_definitions directory
 "# Freelance-QA-Cilsy" 
+"# Freelance-QA-Cilsy" 
